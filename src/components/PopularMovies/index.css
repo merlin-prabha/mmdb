@@ -1,0 +1,19 @@
+.body-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.movies-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+  .body-container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}

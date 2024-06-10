@@ -1,0 +1,16 @@
+.route-page-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.text {
+  text-align: center;
+}
+.empty-view-container {
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
