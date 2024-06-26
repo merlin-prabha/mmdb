@@ -53,6 +53,7 @@ class PopularMovies extends Component {
 
   render() {
     const {isLoading, popularMovieResponse} = this.state
+    console.log(isLoading)
     return (
       <>
         <NavBar />
